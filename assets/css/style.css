@@ -115,8 +115,44 @@ section {
     border: none;
 }
 
+#box {
+    /* The box that will responsively resize */
+    position: relative;
+}
+#box img {
+    display: block;
+}
+#box .static {
+    /* The static image helps responsively resizing the bounding box correctly */
+    width: 100%;
+    height: auto;
+}
 
-
+#box .cat {
+    /* Placing the cat absolutely and with percentage values makes it responsive within the bounding box */
+    position: absolute;
+    top: -40%;
+    left: 0%;
+    width: 10%;
+    border-radius: 100%;
+    height: auto;
+    margin-top: -8%;
+}
+#box .text {
+    position: absolute;
+    top: -10px;
+    left: 13%;
+    color: gray;
+    font-family: sans-serif;
+}
+#box .right-float
+{
+    position: absolute;
+    float: right;
+    left: 80%;
+    display: inline-block;
+    letter-spacing: .3rem;
+}
 
 /*** Individual section styles and separators ***/
 
