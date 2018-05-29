@@ -1,6 +1,18 @@
 @charset "UTF-8";
 /*@import url(https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css);*/
 /*@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);*/
+*,
+*:before,
+*::after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ body, html{
+     overflow-x: hidden !important;
+     margin: 0;
+     padding: 0;
+}
 .banner
 {
     width: 100%;
@@ -15,8 +27,33 @@
     background: url("../images/banner/Web-Development-4.jpg") center no-repeat;
     background-size: cover;
 }
+.banner-5
+{
+    width: 100%;
+    height: 600px;
+    background: #0a4671
+}
+.banner-5:after
+{
+    width:90%;
+    height: 500px;
+    background: url("../images/other/bluebg.PNG") center no-repeat;
+    content: '';
+    float: left;
+    margin-top: 5%;
+    z-index: 99;
+    margin-left: 25%;
+}
 .uppercase{
     text-transform: uppercase;
+}
+.blue-card
+{
+    background:#3391ce !important;
+}
+.dark-blue-card
+{
+    background: #1f5f9f !important;
 }
 .container-banner
 {
@@ -24,12 +61,14 @@
     height: auto;
     position: absolute;
     margin-top: 15%;
+    z-index: 999;
 }
 .left-container-banner
 {
     width: 100%;
     height: auto;
     background-color: rgba(0,0,0,.5);
+    z-index: 999;
 }
 .bold{
     font-weight: bold;
