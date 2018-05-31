@@ -17,14 +17,14 @@
 {
     width: 100%;
     height: 600px;
-    background: url("../images/banner/america-analysis-business-926987.jpg") center no-repeat;
+    background: url("../images/banner/banner.jpg") center no-repeat;
     background-size: cover;
 }
 .banner-2
 {
     width: 100%;
     height: 600px;
-    background: url("../images/banner/Web-Development-4.jpg") center no-repeat;
+    background: url("../images/banner/banner2.jpg") center no-repeat;
     background-size: cover;
 }
 .banner-5
@@ -299,7 +299,7 @@ section {
 #box .text {
     position: absolute;
     top: -10px;
-    left: 13%;
+    left: 0%;
     color: gray;
     font-family: sans-serif;
 }
