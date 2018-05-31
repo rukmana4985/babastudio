@@ -295,11 +295,12 @@ section {
     border-radius: 100%;
     height: auto;
     margin-top: -8%;
+
 }
 #box .text {
     position: absolute;
     top: -10px;
-    left: 0%;
+    left: 10%;
     color: gray;
     font-family: sans-serif;
 }
