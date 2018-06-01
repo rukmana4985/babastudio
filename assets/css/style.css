@@ -27,7 +27,13 @@
     background: url("../images/banner/banner2.jpg") center no-repeat;
     background-size: cover;
 }
-.banner-5
+.banner-7
+{
+    width: 100%;
+    height: 600px;
+    background: url("../images/banner/banner6.png") center no-repeat;
+    background-size: cover;
+}
 {
     width: 100%;
     height: 600px;
@@ -243,6 +249,13 @@
     /*padding: 0.5em 0.6em;*/
 
 }
+.btn-rounded
+{
+    background: transparent !important;
+    border-radius: 30px;
+    border: 1px solid #ffffff;
+    text-transform: none;
+}
 *,
 *:after,
 *::before {
@@ -447,12 +460,49 @@ iframe
     section {
         font-size: 80%;
     }
+    #box .right-float {
+        position: absolute;
+        float: right;
+        left: 60%;
+        font-size: 8px;
+        margin-top: 9px;
+        display: inline-block;
+        letter-spacing: .3rem;
+    }
+    #box .cat {
+        position: absolute;
+        top: -40%;
+        left: 45%;
+        width: 10%;
+        border-radius: 100%;
+        height: auto;
+        margin-top: -8%;
+    }
 }
 
 @media screen and (max-width: 54em) {
     .column {
         display: block;
         width: 100% !important;
+    }
+
+    #box .right-float {
+        position: absolute;
+        float: right;
+        left: 60%;
+        font-size: 8px;
+        margin-top: 9px;
+        display: inline-block;
+        letter-spacing: .3rem;
+    }
+    #box .cat {
+        position: absolute;
+        top: -40%;
+        left: 45%;
+        width: 10%;
+        border-radius: 100%;
+        height: auto;
+        margin-top: -8%;
     }
 
     .text:first-child,
