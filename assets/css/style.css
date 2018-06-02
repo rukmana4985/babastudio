@@ -27,6 +27,13 @@
     background: url("../images/banner/banner2.jpg") center no-repeat;
     background-size: cover;
 }
+.banner-4
+{
+    width: 100%;
+    height: 600px;
+    background: url("../images/banner/banner4.jpg") center no-repeat;
+    background-size: cover;
+}
 .banner-7
 {
     width: 100%;
