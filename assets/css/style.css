@@ -53,6 +53,12 @@
     background: url("../images/banner/banner5.jpg") center no-repeat;
     background-size: cover;
 }
+.banner-9{
+    width: 100%;
+    height: 450px;
+    background: linear-gradient(to right, #233f70, #2e70b0);
+    background-size: cover;
+}
 .uppercase{
     text-transform: uppercase;
 }
