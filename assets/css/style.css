@@ -16,6 +16,9 @@
  p{
      font-size: 1.1em;
  }
+ .square-line p{
+     font-size: .8em;
+ }
 .banner
 {
     width: 100%;
